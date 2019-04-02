@@ -10,7 +10,7 @@
 
 html {
   font-size: 18px;
-  color    : #212121;
+  color    : #fffff7;
 }
 
 body,
@@ -25,9 +25,9 @@ legend {
   font-family: "Consolas", "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei";
 }
 
-ul li{
-   text-decoration: none;
-   list-style     : none;
+ul li {
+  text-decoration: none;
+  list-style     : none;
 }
 
 
@@ -35,17 +35,17 @@ ul li{
 body {
   margin    : 0;
   padding   : 0;
-  background: #f5f5f5;
+  background: #282830;
 }
 
 a {
-  color          : #212121;
+  color          : #fffff7;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: none;
-  color          : #212121;
+  color          : #fff;
 }
 
 main {
@@ -257,19 +257,19 @@ main {
   display         : inline-block;
   line-height     : 1.5;
   padding         : 5px 30px 5px 10px;
-  color           : #212121;
-  background-color: #FAFAFA;
+  color           : #fffff7;
+  background-color: #282830;
   font-size       : 18px;
   background-image: none;
-  border          : 1px solid #EEEEEE;
+  border          : 1px solid rgb(19, 18, 18);
   border-radius   : 4px;
   transition      : all .3s;
 }
 
 .site-layer-input input:focus {
-  border-color: #64B5F6;
+  border-color: #cc0000;
   outline     : 0;
-  box-shadow  : 0 0 0 2px rgba(100, 181, 246, 0.2);
+  box-shadow  : 0 0 0 2px rgba(246, 100, 120, 0.2);
 }
 
 .site-layer-input i {
@@ -484,15 +484,15 @@ main {
   left           : 0;
   width          : 100%;
   height         : 60px;
-  border-bottom  : #FAFAFA solid 2px;
+  border-bottom  : #282830 solid 2px;
   padding-left   : 10px;
-  background     : #FAFAFA;
+  background     : #282830;
   z-index        : 300;
 }
 
 @media screen and (max-width: 768px) {
   .site-header {
-    background: #F5F5F5;
+    background: #282830;
   }
 }
 
@@ -517,7 +517,7 @@ main {
   display    : inline-block;
   margin-left: 5px;
   font-size  : 14px;
-  color      : #616161;
+  color      : #fff;
 }
 
 .site-header-right {
@@ -539,13 +539,13 @@ main {
 
 .site-header-navigation a {
   margin-right: 15px;
-  color       : #9E9E9E;
+  color       : #fffff7;
   display     : block;
   transition  : all .3s linear;
 }
 
 .site-header-navigation a:hover {
-  color: #616161;
+  color: #fff;
 }
 
 .site-header-btn {
@@ -568,7 +568,7 @@ main {
   }
 
   .site-header-btn a#site-github {
-    background: #4FC3F7;
+    background: #cc0000;
   }
 
   .site-header-btn a#site-search {
@@ -592,7 +592,7 @@ main {
 
   .site-header-btn a i {
     padding: 0 20px 0 10px;
-    color  : #616161;
+    color  : #cc0000;
   }
 }
 
@@ -624,12 +624,12 @@ main {
   top       : 58px;
   height    : 2px;
   width     : 0;
-  background: #42A5F5;
+  background: #fffff7;
   z-index   : 300;
 }
 
 .site-footer-wrapper {
-  background   : #455A64;
+  background   : #282830;
   margin-bottom: 50px;
 }
 
@@ -702,8 +702,22 @@ main {
   min-height   : 330px;
   margin       : 30px 0;
   border-radius: 10px;
-  box-shadow   : 0 5px 20px 0 rgba(0, 0, 0, .2),
-      0 13px 24px -11px #aaa;
+  box-shadow   : 4px 4px 18px rgba(0, 0, 0, .46);
+  transition   : all .5s;
+}
+
+
+.home-article-wrapper:hover {
+  border   : 2px solid #cc0000;
+  cursor   : pointer;
+  transform: scale(1.02);
+  /* -ms-transform: scale(1.1);
+   /* IE 9 */
+  /* -moz-transform: scale(1.1); */
+  /* Firefox */
+  /* -webkit-transform: scale(1.1); */
+  /* Safari 和 Chrome */
+  /* -o-transform: scale(1.1); */
 }
 
 .home-article-cover {
@@ -737,7 +751,7 @@ main {
 
 .home-article-inner {
   transition   : all .3s ease;
-  background   : white;
+  background   : #282830;
   width        : 100%;
   padding      : 60px 60px 40px;
   border-radius: 10px;
@@ -804,7 +818,7 @@ main {
   display    : inline-block;
   margin-top : 15px;
   margin-left: 0;
-  color      : #9E9E9E;
+  color      : #fffff7;
   font-weight: 600;
   font-size  : 18px;
   font-style : italic;
@@ -812,7 +826,7 @@ main {
 }
 
 .home-article-read:hover {
-  color      : #616161;
+  color      : #fff;
   margin-left: 10px;
 }
 
@@ -912,9 +926,9 @@ main {
 .passage-article blockquote {
   margin     : 15px 0;
   padding    : 1px 12px;
-  border-left: 3px solid #757575;
-  color      : #424242;
-  background : #F5F5F5;
+  border-left: 3px solid #cc0000;
+  color      : #fffff7;
+  background : #282c34;
 }
 
 .passage-article a {
@@ -947,20 +961,20 @@ main {
 
 .passage-article code {
   font-family: "Consolas",
-  "Microsoft Jhenghei",
-  "Hiragino Sans GB",
-  "Microsoft YaHei";
-     font-size       : 15px;
-     font-weight     : 600;
-     min-width       : 100px;
-     color           : #555;
-     transition      : all .3s;
-     border-radius   : 30px;
-     padding         : 10px 15px;
-     background-color: #e91e63;
-     box-shadow      : 0 5px 20px 0 rgba(0, 0, 0, .2),
-     0 13px 24px -11px rgba(233, 30, 99, .6);
-     color: #fff;
+    "Microsoft Jhenghei",
+    "Hiragino Sans GB",
+    "Microsoft YaHei";
+  font-size       : 15px;
+  font-weight     : 600;
+  min-width       : 100px;
+  color           : #555;
+  transition      : all .3s;
+  border-radius   : 30px;
+  padding         : 10px 15px;
+  background-color: #e91e63;
+  box-shadow      : 0 5px 20px 0 rgba(0, 0, 0, .2),
+    0 13px 24px -11px rgba(233, 30, 99, .6);
+  color: #fff;
 }
 
 .passage-article img {
@@ -973,7 +987,7 @@ main {
 }
 
 .passage-article img:hover {
-  box-shadow: 0 0 3px #9E9E9E;
+  box-shadow: 0px 0px 18px #cc0000;
 }
 
 .passage-article ol,
@@ -1081,16 +1095,16 @@ main {
 
 .passage-meta {
   font-size: 18px;
-  color    : #616161;
+  color    : #fffff7;
 }
 
 .passage-meta a {
-  color     : #616161;
+  color     : #fffff7;
   transition: all .2s;
 }
 
 .passage-meta a:hover {
-  color: #212121;
+  color: #fff;
 }
 
 .passage-meta i {
@@ -1105,19 +1119,19 @@ main {
   margin-top : 20px;
   padding-top: 20px;
   font-size  : 15px;
-  border-top : 1px solid #EEEEEE;
+  /* border-top : 1px solid #EEEEEE;  */
 }
 
 .passage-tags a {
-  display      : inline-flex;
-  margin       : 0 15px 15px 0;
-  align-items  : center;
-  height       : 30px;
-  padding      : 5px 10px;
-  background   : #EEEEEE;
-  border       : 1px solid #EEEEEE;
+  display    : inline-flex;
+  margin     : 0 15px 15px 0;
+  align-items: center;
+  height     : 30px;
+  padding    : 5px 10px;
+  /* background   : #EEEEEE;
+  border       : 1px solid #EEEEEE; */
   border-radius: 3px;
-  transition   : all .15s linear;
+  /* transition   : all .15s linear; */
 }
 
 .passage-tags a i {
@@ -1147,7 +1161,7 @@ main {
 .set a {
   display : inline-block;
   position: relative;
-  color   : #424242;
+  color   : #fffff7;
   padding : 5px 5px;
 }
 
@@ -1183,7 +1197,7 @@ main {
 .set .category-list-item .tag-list-count,
 .set .tag-list-item .category-list-count,
 .set .tag-list-item .tag-list-count {
-  color     : #9E9E9E;
+  color     : #cc0000;
   font-style: normal;
 }
 
@@ -1299,7 +1313,7 @@ main {
 }
 
 .timeline-item a {
-  color       : #212121;
+  color       : #fffff7;
   font-weight : normal;
   padding-left: 10px;
   transition  : all .3s ease;
@@ -1399,64 +1413,222 @@ main {
 }
 
 /* 搜索样式 */
-.search{
+.search {
   display        : flex;
   flex           : 1;
   justify-content: center;
   margin-top     : 80px;
-  
-}
-.search-title{
-     display        : flex;
-     flex           : 1;
-     font-size      : 22px;
-     justify-content: center;
-     padding-bottom : 6px;
-}
-.search .search-wrapper{
-      width        : 100px;
-      height       : 50px;
-      border       : 1px solid #ccc;
-      border-radius: 20px;
-      background   : #fff;
-      padding-left : 20px;
-      line-height  : 50px;
-}
-.search .search-input{
-    height          : 30px;
-    outline         : none;
-    border          : none;
-    background-color: #fff;
-    font-size       : 14px;
-}
-
-#local-search-result-ad{
-    width     : 780px;
-    margin-top: 4px;
-
-   
-}
-
-.search-result-list li{
-    border       : 2px solid #76b5f0;
-    padding      : 4px 6px 5px 6px;
-    border-radius: 6px;
-    margin-bottom: 4px;
-    height       : 90px;
-    overflow     : hidden;
 
 }
-.search-result-list li:hover{
+
+.search-title {
+  display        : flex;
+  flex           : 1;
+  font-size      : 22px;
+  justify-content: center;
+  padding-bottom : 6px;
+}
+
+.search .search-wrapper {
+  width        : 100px;
+  height       : 50px;
+  border       : 1px solid #ccc;
+  border-radius: 20px;
+  background   : #fff;
+  padding-left : 20px;
+  line-height  : 50px;
+}
+
+.search .search-input {
+  height          : 30px;
+  outline         : none;
+  border          : none;
+  background-color: #fff;
+  font-size       : 14px;
+}
+
+#local-search-result-ad {
+  width     : 780px;
+  margin-top: 4px;
+
+
+}
+
+.search-result-list li {
+  border       : 2px solid #76b5f0;
+  padding      : 4px 6px 5px 6px;
+  border-radius: 6px;
+  margin-bottom: 4px;
+  height       : 90px;
+  overflow     : hidden;
+
+}
+
+.search-result-list li:hover {
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .2),
-  0 13px 24px -11px #aaa;
+    0 13px 24px -11px #aaa;
 }
 
-.search-result .search-keyword{
-      background: red;
-      color     : #fff;
-      font-size : 20px;
+.search-result .search-keyword {
+  background   : #cc0000;
+  color        : #fff;
+  padding      : 3px;
+  border-radius: 3px;
+  font-size    : 20px;
+}
+
+.passage-article .highlight::before {
+  content         : attr(data-lang) "代码示例:";
+  display         : block;
+  background-color: #cc0000;
+  /* margin          : 0 0px 16px; */
+  padding    : 4px 16px;
+  color      : #fffff7;
+  font-family: Lato,
+    "Microsoft YaHei",
+    sans-serif;
+  font-size     : 1.0rem;
+  text-shadow   : none;
+  border-bottom : dashed 1px #000;
+  text-transform: capitalize;
+}
+
+.passage-article .highlight::after {
+  content         : attr(data-lang) "";
+  display         : block;
+  background-color: #cc0000;
+  /* margin          : 0 0px 16px; */
+  padding       : 2px 16px;
+  font-size     : 1.0rem;
+  text-shadow   : none;
+  border-bottom : dashed 1px #000;
+  text-transform: capitalize;
+}
+
+.passage-tags a.node,
+.passage-tags a.vue,
+.passage-tags a.react,
+.passage-tags a.reactnative,
+.passage-tags a.basis,
+.passage-tags a.study,
+.passage-tags a.design,
+.passage-tags a.js,
+.passage-tags a.other {
+  padding      : 10px 9px;
+  border-radius: 6px;
+  color        : #fff;
+  cursor       : pointer;
+
+  animation-duration: 1s;
+  text-shadow       : 0 1px 1px rgba(0, 0, 0, .5);
+}
+
+.passage-tags a.node {
+  animation        : greenPulse 1s infinite;
+  -webkit-animation: greenPulse 1s infinite;
+}
+
+.passage-tags a.reactnative {
+  animation        : bluePulse 1s infinite;
+  -webkit-animation: bluePulse 1s infinite;
+}
+
+.passage-tags a.vue {
+  animation        : vuePulse 1s infinite;
+  -webkit-animation: vuePulse 1s infinite;
+}
+
+.passage-tags a.react {
+  animation        : bluePulse 1s infinite;
+  -webkit-animation: bluePulse 1s infinite;
+}
+
+.passage-tags a.ohter {
+  animation        : greenPulse 1s infinite;
+  -webkit-animation: greenPulse 1s infinite;
 }
 
 
+
+
+@keyframes bluePulse {
+  from {
+    background-color  : #80d8f7;
+    box-shadow        : 0 0 9px #333;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
+
+  50% {
+    background-color  : #52c7f1;
+    box-shadow        : 0 0 18px #52c7f1;
+    -webkit-box-shadow: 0 0 18px #52c7f1;
+  }
+
+  to {
+    background-color  : #80d8f7;
+    box-shadow        : 0 0 9px #333;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
+}
+
+@keyframes greenPulse {
+  from {
+    background-color  : #43853d;
+    box-shadow        : 0 0 9px #333;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
+
+  50% {
+    background-color  : #378b2f;
+    box-shadow        : 0 0 18px #378b2f;
+    -webkit-box-shadow: 0 0 18px #378b2f;
+  }
+
+  to {
+    background-color  : #43853d;
+    box-shadow        : 0 0 9px #333;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
+}
+
+@keyframes vuePulse {
+  from {
+    background-color  : #4fc08d;
+    box-shadow        : 0 0 9px #333;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
+
+  50% {
+    background-color  : #3bbe83;
+    box-shadow        : 0 0 18px #3bbe83;
+    -webkit-box-shadow: 0 0 18px #3bbe83;
+  }
+
+  to {
+    background-color  : #4fc08d;
+    box-shadow        : 0 0 9px #333;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
+}
+
+@keyframes otherPulse {
+  from {
+    background-color  : #514fc0;
+    box-shadow        : 0 0 9px #333;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
+
+  50% {
+    background-color  : #2825cc;
+    box-shadow        : 0 0 18px #2825cc;
+    -webkit-box-shadow: 0 0 18px #2825cc;
+  }
+
+  to {
+    background-color  : #514fc0;
+    box-shadow        : 0 0 9px #333;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
