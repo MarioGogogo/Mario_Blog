@@ -25,9 +25,9 @@ legend {
   font-family: "Consolas", "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei";
 }
 
-ul li {
-  text-decoration: none;
-  list-style     : none;
+ul li{
+   text-decoration: none;
+   list-style     : none;
 }
 
 
@@ -707,17 +707,17 @@ main {
 }
 
 
-.home-article-wrapper:hover {
-  border   : 2px solid #cc0000;
-  cursor   : pointer;
-  transform: scale(1.02);
-  /* -ms-transform: scale(1.1);
+.home-article-wrapper:hover{
+    border   : 2px solid #cc0000;
+    cursor   : pointer;
+    transform: scale(1.02);
+    /* -ms-transform: scale(1.1);
    /* IE 9 */
-  /* -moz-transform: scale(1.1); */
-  /* Firefox */
-  /* -webkit-transform: scale(1.1); */
-  /* Safari 和 Chrome */
-  /* -o-transform: scale(1.1); */
+   /* -moz-transform: scale(1.1); */
+   /* Firefox */
+   /* -webkit-transform: scale(1.1); */
+   /* Safari 和 Chrome */
+   /* -o-transform: scale(1.1); */
 }
 
 .home-article-cover {
@@ -924,11 +924,11 @@ main {
 }
 
 .passage-article blockquote {
-  margin     : 15px 0;
-  padding    : 1px 12px;
-  border-left: 3px solid #cc0000;
-  color      : #fffff7;
-  background : #282c34;
+ margin     : 15px 0;
+ padding    : 1px 12px;
+ border-left: 3px solid #cc0000;
+ color      : #fffff7;
+ background : #282c34;
 }
 
 .passage-article a {
@@ -961,20 +961,20 @@ main {
 
 .passage-article code {
   font-family: "Consolas",
-    "Microsoft Jhenghei",
-    "Hiragino Sans GB",
-    "Microsoft YaHei";
-  font-size       : 15px;
-  font-weight     : 600;
-  min-width       : 100px;
-  color           : #555;
-  transition      : all .3s;
-  border-radius   : 30px;
-  padding         : 10px 15px;
-  background-color: #e91e63;
-  box-shadow      : 0 5px 20px 0 rgba(0, 0, 0, .2),
-    0 13px 24px -11px rgba(233, 30, 99, .6);
-  color: #fff;
+  "Microsoft Jhenghei",
+  "Hiragino Sans GB",
+  "Microsoft YaHei";
+     font-size       : 15px;
+     font-weight     : 600;
+     min-width       : 100px;
+     color           : #555;
+     transition      : all .3s;
+     border-radius   : 30px;
+     padding         : 10px 15px;
+     background-color: #e91e63;
+     box-shadow      : 0 5px 20px 0 rgba(0, 0, 0, .2),
+     0 13px 24px -11px rgba(233, 30, 99, .6);
+     color: #fff;
 }
 
 .passage-article img {
@@ -987,7 +987,7 @@ main {
 }
 
 .passage-article img:hover {
-  box-shadow: 0px 0px 18px #cc0000;
+      box-shadow: 0px 0px 18px #cc0000;
 }
 
 .passage-article ol,
@@ -1413,71 +1413,67 @@ main {
 }
 
 /* 搜索样式 */
-.search {
+.search{
   display        : flex;
   flex           : 1;
   justify-content: center;
   margin-top     : 80px;
-
+  
+}
+.search-title{
+     display        : flex;
+     flex           : 1;
+     font-size      : 22px;
+     justify-content: center;
+     padding-bottom : 6px;
+}
+.search .search-wrapper{
+      width        : 100px;
+      height       : 50px;
+      border       : 1px solid #ccc;
+      border-radius: 20px;
+      background   : #fff;
+      padding-left : 20px;
+      line-height  : 50px;
+}
+.search .search-input{
+    height          : 30px;
+    outline         : none;
+    border          : none;
+    background-color: #fff;
+    font-size       : 14px;
 }
 
-.search-title {
-  display        : flex;
-  flex           : 1;
-  font-size      : 22px;
-  justify-content: center;
-  padding-bottom : 6px;
+#local-search-result-ad{
+    width     : 780px;
+    margin-top: 4px;
+
+   
 }
 
-.search .search-wrapper {
-  width        : 100px;
-  height       : 50px;
-  border       : 1px solid #ccc;
-  border-radius: 20px;
-  background   : #fff;
-  padding-left : 20px;
-  line-height  : 50px;
-}
-
-.search .search-input {
-  height          : 30px;
-  outline         : none;
-  border          : none;
-  background-color: #fff;
-  font-size       : 14px;
-}
-
-#local-search-result-ad {
-  width     : 780px;
-  margin-top: 4px;
-
+.search-result-list li{
+    border       : 2px solid #76b5f0;
+    padding      : 4px 6px 5px 6px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    height       : 90px;
+    overflow     : hidden;
 
 }
-
-.search-result-list li {
-  border       : 2px solid #76b5f0;
-  padding      : 4px 6px 5px 6px;
-  border-radius: 6px;
-  margin-bottom: 4px;
-  height       : 90px;
-  overflow     : hidden;
-
-}
-
-.search-result-list li:hover {
+.search-result-list li:hover{
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .2),
-    0 13px 24px -11px #aaa;
+  0 13px 24px -11px #aaa;
 }
 
-.search-result .search-keyword {
-  background   : #cc0000;
-  color        : #fff;
-  padding      : 3px;
-  border-radius: 3px;
-  font-size    : 20px;
+.search-result .search-keyword{
+      background   : #cc0000;
+      color        : #fff;
+      padding      : 3px;
+      border-radius: 3px;
+      font-size    : 20px;
 }
 
-.passage-article .highlight::before {
+.passage-article .highlight::before{
   content         : attr(data-lang) "代码示例:";
   display         : block;
   background-color: #cc0000;
@@ -1485,14 +1481,13 @@ main {
   padding    : 4px 16px;
   color      : #fffff7;
   font-family: Lato,
-    "Microsoft YaHei",
-    sans-serif;
+  "Microsoft YaHei",
+  sans-serif;
   font-size     : 1.0rem;
   text-shadow   : none;
   border-bottom : dashed 1px #000;
   text-transform: capitalize;
 }
-
 .passage-article .highlight::after {
   content         : attr(data-lang) "";
   display         : block;
@@ -1512,43 +1507,53 @@ main {
 .passage-tags a.basis,
 .passage-tags a.study,
 .passage-tags a.design,
-.passage-tags a.js,
+.passage-tags a.js ,
 .passage-tags a.other {
   padding      : 10px 9px;
   border-radius: 6px;
   color        : #fff;
   cursor       : pointer;
-
+ 
   animation-duration: 1s;
   text-shadow       : 0 1px 1px rgba(0, 0, 0, .5);
 }
-
-.passage-tags a.node {
-  animation        : greenPulse 1s infinite;
-  -webkit-animation: greenPulse 1s infinite;
+.passage-tags a.node{
+ animation        : greenPulse 1s infinite;
+ -webkit-animation: greenPulse 1s infinite;
 }
-
 .passage-tags a.reactnative {
   animation        : bluePulse 1s infinite;
   -webkit-animation: bluePulse 1s infinite;
 }
-
 .passage-tags a.vue {
   animation        : vuePulse 1s infinite;
   -webkit-animation: vuePulse 1s infinite;
 }
-
 .passage-tags a.react {
   animation        : bluePulse 1s infinite;
   -webkit-animation: bluePulse 1s infinite;
+}
+.passage-tags a.basis{
+    animation        : basisPulse 1s infinite;
+    -webkit-animation: basisPulse 1s infinite;
+}
+.passage-tags a.study{
+      animation        : studyPulse 1s infinite;
+      -webkit-animation: studyPulse 1s infinite;
+}
+.passage-tags a.design{
+   animation        : designPulse 1s infinite;
+   -webkit-animation: designPulse 1s infinite;
+}
+.passage-tags a.js{
+  animation        : jsPulse 1s infinite;
+  -webkit-animation: jsPulse 1s infinite;
 }
 
 .passage-tags a.ohter {
   animation        : greenPulse 1s infinite;
   -webkit-animation: greenPulse 1s infinite;
 }
-
-
 
 
 @keyframes bluePulse {
@@ -1570,7 +1575,6 @@ main {
     -webkit-box-shadow: 0 0 9px #333;
   }
 }
-
 @keyframes greenPulse {
   from {
     background-color  : #43853d;
@@ -1590,26 +1594,136 @@ main {
     -webkit-box-shadow: 0 0 9px #333;
   }
 }
-
 @keyframes vuePulse {
   from {
-    background-color  : #4fc08d;
+    background-color  : #6be499;
     box-shadow        : 0 0 9px #333;
     -webkit-box-shadow: 0 0 9px #333;
   }
 
   50% {
-    background-color  : #3bbe83;
-    box-shadow        : 0 0 18px #3bbe83;
-    -webkit-box-shadow: 0 0 18px #3bbe83;
+    background-color  : #28e751;
+    box-shadow        : 0 0 18px #28e751;
+    -webkit-box-shadow: 0 0 18px #28e751;
   }
 
   to {
-    background-color  : #4fc08d;
+    background-color  : #6be499;
     box-shadow        : 0 0 9px #333;
     -webkit-box-shadow: 0 0 9px #333;
   }
 }
+@keyframes basisPulse {
+  from {
+    background-color  : #6b96e4;
+    box-shadow        : 0 0 9px #333;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
+
+  50% {
+    background-color  : #3e7ae7;
+    box-shadow        : 0 0 18px #3e7ae7;
+    -webkit-box-shadow: 0 0 18px #3e7ae7;
+  }
+
+  to {
+    background-color  : #6b96e4;
+    box-shadow        : 0 0 9px #333;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
+}
+
+@keyframes studyPulse {
+  from {
+    background-color  : #ce7847;
+    box-shadow        : 0 0 9px #333;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
+
+  50% {
+    background-color  : #e25d10;
+    box-shadow        : 0 0 18px #e25d10;
+    -webkit-box-shadow: 0 0 18px #e25d10;
+  }
+
+  to {
+    background-color  : #ce7847;
+    box-shadow        : 0 0 9px #333;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
+}
+
+@keyframes designPulse {
+  from {
+    background-color  : #55c4ac;
+    box-shadow        : 0 0 9px #333;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
+
+  50% {
+    background-color  : #29e4bb;
+    box-shadow        : 0 0 18px #29e4bb;
+    -webkit-box-shadow: 0 0 18px #29e4bb;
+  }
+
+  to {
+    background-color  : #55c4ac;
+    box-shadow        : 0 0 9px #333;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
+}
+
+@keyframes jsPulse {
+  from {
+    background-color  : #e4e27b;
+    box-shadow        : 0 0 9px #333;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
+
+  50% {
+    background-color  : #ebe841;
+    box-shadow        : 0 0 18px #ebe841;
+    -webkit-box-shadow: 0 0 18px #ebe841;
+  }
+
+  to {
+    background-color  : #e4e27b;
+    box-shadow        : 0 0 9px #333;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
+}
+
+@keyframes es6Pulse {
+  from {
+    background-color  : #e377ec;
+    box-shadow        : 0 0 9px #333;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
+
+  50% {
+    background-color  : #de4feb;
+    box-shadow        : 0 0 18px #de4feb;
+    -webkit-box-shadow: 0 0 18px #de4feb;
+  }
+
+  to {
+    background-color  : #e377ec;
+    box-shadow        : 0 0 9px #333;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes otherPulse {
   from {
